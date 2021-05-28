@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+.header{
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: -18px;
+    
+}
+.navBar{
+    text-align: center;
+    background-color: rgb(181, 231, 100);
+    height: 40px;
+    padding: 8px;
+}
+.navButton{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: monospace;
+    margin: auto 5px;
+    height: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(181, 231, 100);
+    
+}
+.navButtonActive{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: monospace;
+    margin: auto 5px;
+    height: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(247, 255, 233);
+    border-radius: 20px;
+}
+.navButton:hover{
+    background-color: rgb(247, 255, 233);
+    border-radius: 20px;
+}
+/* .homeImg{
+    width: 95%;
+    height: 90%;
+    margin-top: 20px;
+    opacity: 70%;
+} */
+.body1{
+    text-align: left;
+    background-color: rgb(201, 218, 190);
+    padding : 30px;
+    margin: 30px 40px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.body2{
+    text-align: left;
+    /* background-color: rgb(224, 252, 206); */
+    padding : 30px;
+    margin: 30px 40px;
+    font-size: 20px;
+    font-family: cursive;
+    width: 50%;
+}
+
+.moto{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("college1.jpg");
+    height: 60%;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+.moto h3{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding-top: 170px;
+    border-style: solid;
+    border-color: white;
+    font-family: sans-serif;
+}
+
+/* Academics------------------------------------ */
+.listDept{
+    list-style-type: none;
+}
+.eachItemList{
+    font-size: 20px;
+    width: 70%;
+    padding: 20px ;
+    text-decoration: none;
+    color: black;
+}
+.eachItemList:hover{
+    background-color: rgb(181, 231, 100) ;
+}
+.subjectDetails{
+    display: flex;
+    padding: 30px;
+    height: 300px;
+    
+}
+.subjectDetails1{
+    display: flex;    
+    padding: 30px;
+   
+    background-color: #ceffc7;
+}
+.subjectDetails h2{
+    font-family: system-ui;
+}
+

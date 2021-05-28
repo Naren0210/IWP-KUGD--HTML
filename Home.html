@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>krypto university</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div style="display: flex; text-align: center;">
+        <div>
+            <img src="logo.png" width="440" height="270" />
+        </div>
+        <div>
+            <p class="header">KRYPTO UNIVERSITY</p>
+            <p style="text-align: center; letter-spacing: 20px; font-size: 20px;">for game development</p>
+        </div>
+    </div>
+    <div class="navBar" id="navBar">
+        <a><input class="navButtonActive" type="submit" value="Home" /></a>
+        <a href="about.html"><input class="navButton" type="submit" value="About" /></a>
+        <a href="academics.html"><input class="navButton" type="submit" value="Academics" /></a>
+        <a href="footer"><input class="navButton" type="submit" value="Contact us" /></a>
+    </div>
+    <div class="moto">
+        <!-- <img src="college1.jpg" class="homeImg" /> -->
+        <h3 >New Perespective Of Life</h3>
+    </div>
+    <div class="body1">
+        <p>
+            Krypto University of game development, with an enriching history of excellence spanning four decades, has
+            been a significant contributor to the advancements of knowledge in teaching-learning, research and
+            administration, and thus been consistently ranked among the best engineering institutions in India.
+            Kumaraguru landscape promotes the scientific temper, critical thinking and free inquiry among the scholarly
+            community leading to redefining the socio-economic constructs through technological disruption.</p>
+        <p>
+            A dynamic forerunner in creating global opportunities through international partnerships with foreign
+            Universities that results in outstanding graduate career outcomes; a stimulating incubator in promoting the
+            entrepreneurial spirit of the change agents; a sustainability champion with a unique potential to leverage
+            technology-integrated solutions scaling ecological resilience, KCT is infused with a culture that fosters
+            nothing less than holistic excellence.
+        </p>
+    </div>
+    <div id="footer"
+        style="text-align: center; height: 40px; background-color: rgb(181, 231, 100); font-family: cursive; height: 150px; padding-top: 30px;">
+        <h3>Follow us on </h3>
+        <input
+            style="background-color: rgb(71, 174, 243); color: white; font-family: cursive; padding: 10px 20px; border: none; border-radius: 5px; font-size: large; "
+            type="submit" value="Twitter" />
+        <input
+            style="background-image: linear-gradient(rgb(1, 56, 158) , rgb(207, 23, 130) , rgb(245, 140, 41) ); font-family: cursive;color: white;  padding: 10px 20px; border: none; border-radius: 5px; font-size: large; margin-left: 20px; "
+            type="submit" value="Instagram" />
+        <input
+            style="background-color: rgb(31, 41, 138); color: white;  padding: 10px 20px; border: none; border-radius: 5px; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="Facebook" />
+        <input
+            style="background-color: rgba(245, 50, 50, 0.966); color: white;  padding: 10px 20px; border-radius: 5px; border: none; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="Youtube" />
+        <input
+            style="background-color: rgb(0, 91, 175); color: white;  padding: 10px 20px; border-radius: 5px; border: none; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="LinkedIn" />
+        
+    </div>
+
+    <!--Script------------------------------------------------->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navBar");
+        var sticky = navbar.offsetTop;
+        
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+
+</html>

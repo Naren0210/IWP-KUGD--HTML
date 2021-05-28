@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krypto - about</title>
+</head>
+
+<body>
+    <div style="display: flex; text-align: center;">
+        <div>
+            <img src="logo.png" width="440" height="270" />
+        </div>
+        <div>
+            <p class="header">KRYPTO UNIVERSITY</p>
+            <p style="text-align: center; letter-spacing: 20px; font-size: 20px;">for game development</p>
+        </div>
+    </div>
+    <div class="navBar" id="navBar">
+        <a href="Home.html"><input class="navButton" type="submit" value="Home" /></a>
+        <a><input class="navButtonActive" type="submit" value="About" /></a>
+        <a href="academics.html"><input class="navButton" type="submit" value="Academics" /></a>
+        <a href="#footer"><input class="navButton" type="submit" value="Contact us" /></a>
+    </div>
+    <div>
+        <div style=" display: flex;  margin-top: 30px;">
+            <div class="body2">
+                <p>
+                    Since 1998, Krypto University has been preparing students to succeed as skilled engineers, artists,
+                    and designers in the growing technology industries.
+                <p>An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video
+                    game technology and development. Today, we offer a wide range of technology-focused programs, all
+                    with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and
+                    interdisciplinary team-based projects, our educational model empowers students to be active
+                    learners, bold problem-solvers, and creators.</p>
+                <p>Our programs are intentionally designed to reflect the standards and practices of the professional
+                    industries: Small teams with different backgrounds and skills collaborate to apply their knowledge,
+                    overcome challenges, and build amazing things together. These teams form the core of our tight-knit
+                    student and alumni community.</p>
+                </p>
+            </div>
+            <img src="about1.jpg" style="padding-top: 80px; padding-right: 30px;" width="700" height="500" />
+        </div>
+        <div style=" display: flex; background-color: rgb(226, 255, 225); margin-top: 30px;">
+            <img src="about2.jpg" style="padding-top: 80px; padding-right: 30px; margin-left: 30px;" width="700"
+                height="500" />
+            <div class="body2">
+                <p>
+                    Since 1998, Krypto University has been preparing students to succeed as skilled engineers, artists,
+                    and designers in the growing technology industries.
+                <p>An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video
+                    game technology and development. Today, we offer a wide range of technology-focused programs, all
+                    with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and
+                    interdisciplinary team-based projects, our educational model empowers students to be active
+                    learners, bold problem-solvers, and creators.</p>
+                <p>Our programs are intentionally designed to reflect the standards and practices of the professional
+                    industries: Small teams with different backgrounds and skills collaborate to apply their knowledge,
+                    overcome challenges, and build amazing things together. These teams form the core of our tight-knit
+                    student and alumni community.</p>
+                </p>
+            </div>
+
+        </div>
+        <div style=" display: flex;  margin-top: 30px;">
+            <div class="body2">
+                <p>
+                    Since 1998, Krypto University has been preparing students to succeed as skilled engineers, artists,
+                    and designers in the growing technology industries.
+                <p>An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video
+                    game technology and development. Today, we offer a wide range of technology-focused programs, all
+                    with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and
+                    interdisciplinary team-based projects, our educational model empowers students to be active
+                    learners, bold problem-solvers, and creators.</p>
+                <p>Our programs are intentionally designed to reflect the standards and practices of the professional
+                    industries: Small teams with different backgrounds and skills collaborate to apply their knowledge,
+                    overcome challenges, and build amazing things together. These teams form the core of our tight-knit
+                    student and alumni community.</p>
+                </p>
+            </div>
+            <img src="about1.jpg" style="padding-top: 80px; padding-right: 30px;" width="700" height="500" />
+        </div>
+    <div id="footer"
+        style="text-align: center; height: 40px; background-color: rgb(181, 231, 100); font-family: cursive; height: 150px; padding-top: 30px;">
+        <h3>Follow us on </h3>
+        <input
+            style="background-color: rgb(71, 174, 243); color: white; font-family: cursive; padding: 10px 20px; border: none; border-radius: 5px; font-size: large; "
+            type="submit" value="Twitter" />
+        <input
+            style="background-image: linear-gradient(rgb(1, 56, 158) , rgb(207, 23, 130) , rgb(245, 140, 41) ); font-family: cursive;color: white;  padding: 10px 20px; border: none; border-radius: 5px; font-size: large; margin-left: 20px; "
+            type="submit" value="Instagram" />
+        <input
+            style="background-color: rgb(31, 41, 138); color: white;  padding: 10px 20px; border: none; border-radius: 5px; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="Facebook" />
+        <input
+            style="background-color: rgba(245, 50, 50, 0.966); color: white;  padding: 10px 20px; border-radius: 5px; border: none; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="Youtube" />
+        <input
+            style="background-color: rgb(0, 91, 175); color: white;  padding: 10px 20px; border-radius: 5px; border: none; font-family: cursive; font-size: large; margin-left: 20px;"
+            type="submit" value="LinkedIn" />
+    </div>
+    </div>
+
+    <!--Script------------------------------------------------>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navBar");
+        var sticky = navbar.offsetTop;
+        
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+
+</html>
